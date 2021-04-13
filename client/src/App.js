@@ -12,15 +12,17 @@ import {
 function App() {
   return (
     <Router>
+      <div>
       <Nav />
        <Switch>
+        <Route path="/saved">
+          <Saved />
+          </Route>
           <Route path="/">
           <Search />
           </Route>
-          <Route path="/saved">
-          <Saved />
-          </Route>
         </Switch>
+        </div>
         </Router>
   );
 }

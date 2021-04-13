@@ -4,23 +4,33 @@ import Jumbotron from "../components/Jumbotron";
 // import { Link } from "react-router-dom";
 
 import SearchForm from "../components/SearchForm"
-// import BooksList from "../components/BooksList"
-import {Container} from "react-bootstrap"
+import ResultsContainer from "../components/ResultsContainer"
+import {Container,Row, Col} from "react-bootstrap"
 
 
 
 function Search() {
-
+  
 
 return (
- <>
- 
+    <>
     <Container>
         <Jumbotron />
+        <Row>
+            <Col>
         <SearchForm />
-        {/* <BooksList /> */}
+        </Col>
+        </Row>
+        <Row>
+            <Col>
+        <ResultsContainer />
+         </Col>
+        )
+        
+     </Row>
     </Container>
-</>
+    </>
+
 );
 }
 
