@@ -6,15 +6,14 @@
 
 ---
 
-kdjslf
-
 ## Table of Contents
 
 ---
 
 - [Description](#description)
 - [Installation](#installation)
-- [Usage](#usage) \*[Technologies](#technologies)
+- [Usage](#usage)
+- [Technologies](#technologies)
 - [License](#license)
 - [Questions](#questions)
 
@@ -22,13 +21,9 @@ kdjslf
 
 ---
 
-djfklsd
-
 ## Usage
 
 ---
-
-jfkdslfs
 
 ## Technologies
 
