@@ -6,6 +6,8 @@
 
 ---
 
+The Google Books Search is an application that allows a user to easily search for books, save books they are interested in ,and link to a purchase page to buy the books they decide on.
+
 ## Table of Contents
 
 ---
@@ -20,6 +22,20 @@
 ## Installation
 
 ---
+
+To install the Google Books Search application the user can start by cloning the application from the repository onto their local machine.
+
+```
+https://github.com/thompson-1657/google_book_search.git
+```
+
+Once cloned the user can run
+
+```
+npm install
+```
+
+in the terminal to install the package.json and the node modules. Npm start can then be entered into the terminal to open the application in the browser on a localhost.
 
 ## Usage
 
